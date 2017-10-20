@@ -1,0 +1,599 @@
+* {
+    margin:0 auto;
+}
+html {
+    font-size: 10px;
+    font-family: proxima_nova_rgregular;
+}
+
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.5rem;
+}
+h3 {
+    font-size: 1.2rem;
+}
+p, li {
+    font-size: 1rem;
+}
+.button {
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 500px){
+  html{
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 570px){
+  html{
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 620px){
+  html{
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 680px){
+  html{
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 720px){
+  html{
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 800px){
+  html{
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: 860px){
+  html{
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 920px){
+  html{
+    font-size: 19px;
+  }
+}
+@media screen and (min-width: 1000px){
+  html{
+    font-size: 20px;
+  }
+}
+.align-r {
+    text-align: right;
+}
+.align-l {
+    text-align: left;
+}
+.align-c {
+    text-align: center;
+}
+button {
+    cursor: pointer;
+}
+.fullwidth {
+    background-image: url(images/homeban1.png);
+    background-size: cover;
+}
+.main {
+    height: auto;
+    max-width: 1193px;
+}
+.padding-t-b {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.outline {
+    outline: 1px solid red;
+}
+#menu {
+    display: inline-block;
+    padding-left: 1%;
+    padding-top: 1%;
+    vertical-align: top;
+}
+#menu2 {
+    float: right;
+    padding: 40px;
+    width: 42.5%;
+    background: white;
+    opacity: 0.9;
+    display: inline-block;
+}
+li.menuhide a {
+    display: none;
+}
+ul.menuhide {
+    list-style-type: none;
+}
+.menu1 {
+    list-style-type: none;
+}
+.menu1 li{
+    display: inline;
+    font-size: .8rem;
+}
+#menu2 p:first-child {
+    text-align: right;
+}
+.menu1 ul {
+    padding: 5px 0px 0 0;
+}
+.garantes h1{
+    padding: 62px 0 0 0;
+    line-height: .89;
+}
+.garantes p:nth-child(3) {
+    text-align: left;
+    padding-top: 22px;
+}
+.subh {
+    padding-top: 19px;
+}
+.garantes ul {
+    padding-top: 27px;
+    line-height: 1.4;
+    padding-bottom: 37px;
+}
+.garantes button {
+    padding: 30px 0px;
+    width: 100%;
+    background: #367cf9;
+    color: white;
+    border:0;
+    transition: .5s;
+}
+.garantes button:hover {
+    background: #216cf1;
+}
+.garantes p:nth-child(2) {
+    padding-top: 20px;
+    font-size: 1.4rem;
+}
+.clear {
+    clear: both;
+}
+.block {
+    display: block;
+}
+.fullwidth1 {
+    background: white;
+}
+#body {
+    vertical-align: middle;
+}
+#body .block {
+    padding-top: 77px;
+    letter-spacing: 1.5px;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.box {
+    display: flex;
+    min-width: 50%;
+    flex-grow: 1;
+    align-items: center;
+}
+.box img {
+    padding: 48px 0;
+}
+.fullwidth2 {
+    background: #1381ed;
+    padding-bottom: 50px;
+}
+div#company div {
+    width: 32%;
+    float: left;
+}
+.fullwidth3 {
+    background: white;
+    padding: 50px 0;
+}
+#company img {
+    margin: 0 auto;
+    display: block;
+    height: 287px;
+    padding-top: 60px;
+}
+#company h2 {
+    width: 36%;
+    color: white;
+    padding-bottom: 25px;
+}
+#company button {
+    display: inherit;
+    width: 94%;
+    height: 61px;
+    border: 0;
+}
+#company h1 {
+    padding-top: 50px;
+    color: white;
+}
+.img1, .img2, .img3 {
+    transition: filter .5s ease-in-out;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(100%);
+}
+.img1:hover, .img2:hover, .img3:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(0%);
+}
+.img1 button, .img2 button, .img3 button {
+    transition: .5s;
+}
+.img1:hover button, .img2:hover button, .img3:hover button  {
+    background:#0f6ac3;
+    color: white;
+}
+.img1, .img2, .img3 {
+    background-size:340px auto;
+    transition:.5s;
+}
+.img1:hover, .img2:hover, .img3:hover {
+    background-size:80% auto;
+}
+.img1, .img2, .img3 {
+    background-repeat: no-repeat;
+    background-position: center;.
+    background-size: 100%;
+    background-position: center;
+}
+.img1 {
+    background-image: url(images/5.png);
+}
+.img2 {
+    background-image: url(images/6.png);
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.img3 {
+    background-image: url(images/7.png);
+}
+
+#clients div {
+    width: 32%;
+    float: left;
+}
+.author {
+    display: block;
+    text-align: right;
+    padding-top: 22px;
+    color: #7b7474;
+}
+.wocas {
+    display: block;
+    text-align: center;
+    color: #1381ed;
+}
+#clients {
+    padding-top: 40px;
+}
+#clients div:nth-child(2) {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.fullwidth4 {
+    background: #1381ed;
+    clip-path: polygon(0% 0%,47% 0%,50% 10%,53% 0%,100% 0%, 100% 90%,53% 90%,50% 100%,47% 90%, 0% 90% );
+}
+.title1 {
+    text-align: center;
+    display: block;
+    color: white;
+    padding-top: 50px;
+}
+.subtit1 {
+    text-align: center;
+    display: block;
+    color: white;
+    padding-top: 9px;
+}
+#recovery button {
+    display: block;
+    width: 50%;
+    padding: 20px 0px;
+    background: #619ddb;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-family: 'proxima_nova_rgregular';
+}
+.conbef::before {
+    content: "+";
+    float: left;
+    left: 46px;
+    position: relative;
+}
+#recovery button:hover {
+    background: #319edb;
+}
+.fullwidth5 {
+    background: #0f0f0f;
+    margin-bottom: -60px;
+    padding-top: 50px;
+}
+#bestpos {
+    padding-bottom: 60px;
+}
+#bestpos img {
+    float: right;
+    margin-top: 4%;
+    margin-right: 2%;
+    -webkit-mask-image: -webkit-gradient( radial, 50% 50%, 150, 50% 50%, 230, from(#fff), to(rgba(0,0,0,0)));
+}
+#bestpos span, #bestpos p {
+    color: white;
+}
+#bestpos p {
+    padding-bottom: 20px;
+}    
+.w60 {
+    width: 60%;
+    margin-left: 0;
+}
+.w60 p:nth-child(2) {
+    padding-top: 30px;
+}
+.w60 p:nth-child(5) {
+    margin-bottom: 50px;
+}
+#silver {
+    padding: 100px 0;
+}
+#silver{
+    color: white;
+}
+#silver span:nth-child(2) {
+    text-align: center;
+    display: block;
+    padding-bottom: 60px;
+}
+.s1 span {
+    margin:1px;
+}
+.s-main {
+    display: flex;
+}
+.s1 {
+    background-image: url(images/white-box.png);
+    background-repeat: no-repeat;
+    width: 211px;
+    height: 118px;
+    text-align: center;
+    transition:.5s;
+}
+.arrow1 {
+    background-image: url(images/arrow1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 139px;
+    margin: 0;
+}
+.arrow {
+    background-image: url(images/arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 139px;
+    margin: 0;
+}
+.s1 .p6 {
+    padding: 6px;
+}
+.s1 .p20 {
+    padding: 20px;
+}
+.s1:hover {
+    background: white;
+    background-image: url(images/blue-box.png);
+    box-shadow: 0 0 100px white;
+    color: #1282ed;
+    cursor: pointer;
+}
+span.sl {
+    display: block;
+    padding-top: 50px;
+}
+.conform{
+    display: flex;
+    padding-bottom: 75px;
+}
+.callus {
+    width: 45%;
+    display: inline-block;
+}
+.or {
+
+}
+.inqonline{
+    width: 45%;
+}
+label {
+    width: 50%;
+    display: block;
+    float: left;
+    text-align: right;
+}
+.fullwidth7 {
+    background: #0f0f0f;
+    color: white;
+    margin-top: -63px;
+}
+.lhm {
+    display: block;
+    padding-bottom: 60px;
+    padding-top: 100px;
+}
+
+.conform p {
+    margin: 0px 95px;
+    padding: 49px 0px;
+}
+.conform button {
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    padding: 20px 30px;
+    margin-top: 85px;
+}
+.inqonline input {
+    margin-bottom: 10px;
+    height: 30px;
+    margin-left: 15px;
+    width: 170px;
+}
+.inqonline textarea {
+    margin-left: 15px;
+}
+.or hr {
+    width: .5px;
+    height: 155px;
+}
+.or hr:nth-child(1) {
+    margin-top: 85px;
+}
+.or span {
+    padding: 20px 0;
+    display: block;
+}
+#its span:nth-child(2) {
+}
+.width50 {
+    width: 48%;
+    float: left;
+    padding-bottom: 40px;
+}
+.main-its {
+    padding-top: 70px;
+}
+.main-its img {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+.width50 p {
+    width: 70%;
+    display: inline-block;
+}
+.width50 a {
+    text-decoration: none;
+    color: #030303;
+}
+.margin-r1 {
+    margin-right: 1%;
+}
+.margin-l1 {
+    margin-left: 1%;
+}
+.fullwidth8 {
+    background:#1381ed;
+    clear: both;
+    padding:125px;
+    color: white;
+}
+.main-confi h3 {
+    padding-bottom: 40px;
+}
+.main-confi {
+    width: 80%;
+}
+.main-confi button {
+    height: 100px;
+    width: 48%;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    letter-spacing: -1px;
+    font-weight: 600;
+    transition: .5s;
+}
+.main-confi button:hover {
+    background: white;
+    color: #1282ed;
+}
+.address {
+    width: 30%;
+    float: left;
+}
+.about {
+    width: 38%;
+    float: left;
+    color: #1381ed;
+}
+.about a {
+    text-decoration: none;
+    color: #1381ed;
+}
+.about p {
+    color: #89898a;
+    font-weight: 600;
+}
+.mcalister{
+    width: 30%;
+    float: right;
+    padding-bottom: 50px;
+    margin-left: 2%;
+}
+#footer {
+    clear: both;
+}
+/* Responsive */
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (max-device-width : 1147px) {
+    .main {
+        margin-left: 3%;
+        margin-right: 3%;
+    }    
+    #menu2 {
+        width: 48.5%;
+    }
+}
+@media only screen and (min-device-width : 961px) and (max-device-width : 1023px) {
+    #menu2 {
+        width: 51.5%;
+    }
+}
+@media only screen and (min-device-width : 400px) and (max-device-width : 960px) {
+        #menu2 {
+        float: none;
+        padding: 0;
+        background: transparent;
+        width: 100%;
+    }
+        #menu2 p:first-child {
+        text-align: center;
+        color: #367cf9;
+    }
+        #menu {
+        display: block;
+        text-align: center;
+    }
+    li.menuhide {
+        display: block;
+    }
+        .garantes {
+        float: right;
+        padding: 40px;
+        width: 42.5%;
+        background-color: rgba(255, 255, 255, 0.9);
+        display: inline-block;
+    }
+
+}
+@media only screen and (min-device-width : 400px) and (max-device-width : 768px) {
+.banners {
+ 
+}
