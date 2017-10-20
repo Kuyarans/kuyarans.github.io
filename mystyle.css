@@ -252,6 +252,7 @@ div#company div {
 }
 .img1 {
     background-image: url(images/5.png);
+    background-size: contain;
 }
 .img2 {
     background-image: url(images/6.png);
